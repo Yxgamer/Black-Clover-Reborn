@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "demon_destroyer_anti",
+    "customModelName": "demon_destroyer:default",
+    "name": "Demon Destroyer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.5,
+    "enchantability": 0,
+    "damageVsEntity": 8.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DemondestroyerLivingEntityIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "DemondestroyerToolInInventoryTick"
+    }
+  }
+}

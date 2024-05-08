@@ -1,0 +1,254 @@
+{
+  "mod_elements": [
+    {
+      "name": "DemonslayerToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonslayer_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/DemonslayerToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Demonslayer",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonslayer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/black_clover_reborn/models/item/demonslayer.json",
+          "src/main/java/net/mcreator/blackcloverreborn/item/DemonslayerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DemondwellerToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demondweller_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/DemondwellerToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Demondweller",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demondweller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/item/DemondwellerItem.java",
+          "src/main/resources/assets/black_clover_reborn/models/item/demondweller.json"
+        ]
+      }
+    },
+    {
+      "name": "Demondestroyer",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demondestroyer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/item/DemondestroyerItem.java",
+          "src/main/resources/assets/black_clover_reborn/models/item/demondestroyer.json"
+        ]
+      }
+    },
+    {
+      "name": "DemondestroyerToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demondestroyer_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/DemondestroyerToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemonslayerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonslayer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/DemonslayerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemondwellerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demondweller_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/DemondwellerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemondestroyerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demondestroyer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/DemondestroyerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fifthleaf",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifthleaf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/black_clover_reborn/advancements/fifthleaf.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackslashRangedItemUsed",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackslash_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/BlackslashRangedItemUsedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DemondwellerRightclicked",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demondweller_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/DemondwellerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.fifthleaf.descr": "surpass your limits",
+      "item.black_clover_reborn.demonslayer": "Demon Slayer",
+      "item.black_clover_reborn.demondweller": "Demon Dweller",
+      "advancements.fifthleaf.title": "Fifth Leaf",
+      "item.black_clover_reborn.demondestroyer": "Demon Destroyer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "black_clover_reborn",
+    "modName": "Black Clover ReBorn",
+    "version": "1.0.0",
+    "author": "Y",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "kleiders_custom_renderer playerAnimator library"
+    ],
+    "dependencies": [
+      "kleiders_custom_renderer playerAnimator library"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "pehkui",
+      "curios_api",
+      "posture",
+      "geckolib",
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.blackcloverreborn",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

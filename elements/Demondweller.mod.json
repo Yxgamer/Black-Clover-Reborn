@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "demon_dweller_anti",
+    "customModelName": "demon_dweller:default",
+    "name": "Demon Dweller",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.5,
+    "enchantability": 0,
+    "damageVsEntity": 8.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DemondwellerLivingEntityIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "DemondwellerToolInInventoryTick"
+    }
+  }
+}

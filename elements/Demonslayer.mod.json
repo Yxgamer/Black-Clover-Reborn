@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "demon_slayer_anti",
+    "customModelName": "demon_slayer:default",
+    "name": "Demon Slayer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 2.0,
+    "enchantability": 0,
+    "damageVsEntity": 12.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "DemonslayerLivingEntityIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "DemonslayerToolInInventoryTick"
+    }
+  }
+}

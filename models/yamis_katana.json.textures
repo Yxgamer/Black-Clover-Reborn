@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "yk2_antimagic",
+        "1": "yk2_antimagic",
+        "2": "yk2_antimagic",
+        "3": "yk2_antimagic",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

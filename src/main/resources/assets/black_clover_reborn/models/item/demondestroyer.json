@@ -1,0 +1,7 @@
+{
+  "parent": "black_clover_reborn:custom/demon_destroyer",
+  "textures": {
+    "0": "black_clover_reborn:blocks/demon_destroyer_anti",
+    "particle": "black_clover_reborn:items/demon_destroyer_anti"
+  }
+}

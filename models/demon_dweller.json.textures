@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "demon_dweller_anti"
+      },
+      "name": "default"
+    }
+  }
+}
