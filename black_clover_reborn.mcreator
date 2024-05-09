@@ -204,6 +204,58 @@
           }
         ]
       }
+    },
+    {
+      "name": "Yamikatana",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yamikatana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/item/YamikatanaItem.java",
+          "src/main/resources/assets/black_clover_reborn/models/item/yamikatana.json"
+        ]
+      }
+    },
+    {
+      "name": "YamikatanaToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yamikatana_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/YamikatanaToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YamikatanaLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yamikatana_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/blackcloverreborn/procedures/YamikatanaLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -212,6 +264,7 @@
     "en_us": {
       "advancements.fifthleaf.descr": "surpass your limits",
       "item.black_clover_reborn.demonslayer": "Demon Slayer",
+      "item.black_clover_reborn.yamikatana": "Yami Katana",
       "item.black_clover_reborn.demondweller": "Demon Dweller",
       "advancements.fifthleaf.title": "Fifth Leaf",
       "item.black_clover_reborn.demondestroyer": "Demon Destroyer"

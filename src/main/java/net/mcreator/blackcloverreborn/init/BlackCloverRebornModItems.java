@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.blackcloverreborn.item.YamikatanaItem;
 import net.mcreator.blackcloverreborn.item.DemonslayerItem;
 import net.mcreator.blackcloverreborn.item.DemondwellerItem;
 import net.mcreator.blackcloverreborn.item.DemondestroyerItem;
@@ -20,4 +21,5 @@ public class BlackCloverRebornModItems {
 	public static final RegistryObject<Item> DEMONDWELLER = REGISTRY.register("demondweller", () -> new DemondwellerItem());
 	public static final RegistryObject<Item> DEMONSLAYER = REGISTRY.register("demonslayer", () -> new DemonslayerItem());
 	public static final RegistryObject<Item> DEMONDESTROYER = REGISTRY.register("demondestroyer", () -> new DemondestroyerItem());
+	public static final RegistryObject<Item> YAMIKATANA = REGISTRY.register("yamikatana", () -> new YamikatanaItem());
 }

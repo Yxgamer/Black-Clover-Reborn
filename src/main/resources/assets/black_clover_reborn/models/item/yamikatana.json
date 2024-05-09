@@ -1,0 +1,11 @@
+{
+  "parent": "black_clover_reborn:custom/yamis_katana",
+  "textures": {
+    "0": "black_clover_reborn:blocks/yk2_antimagic",
+    "1": "black_clover_reborn:blocks/yk2_antimagic",
+    "2": "black_clover_reborn:blocks/yk2_antimagic",
+    "3": "black_clover_reborn:blocks/yk2_antimagic",
+    "missing": "black_clover_reborn:blocks/",
+    "particle": "black_clover_reborn:items/yk2_antimagic"
+  }
+}
